@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F86A78662056BA4E00528EB3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F86A78652056BA4E00528EB3 /* main.cpp */; };
+		F86A7872205C0ED900528EB3 /* EchoServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F86A7870205C0ED900528EB3 /* EchoServer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F86A78622056BA4E00528EB3 /* CppTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86A78652056BA4E00528EB3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F86A7870205C0ED900528EB3 /* EchoServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EchoServer.cpp; sourceTree = "<group>"; };
+		F86A7871205C0ED900528EB3 /* EchoServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EchoServer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 		F86A78592056BA4D00528EB3 = {
 			isa = PBXGroup;
 			children = (
+				F86A786E205C0E4E00528EB3 /* Echo Server */,
 				F86A78642056BA4E00528EB3 /* CppTests */,
 				F86A78632056BA4E00528EB3 /* Products */,
 			);
@@ -60,6 +64,23 @@
 				F86A78652056BA4E00528EB3 /* main.cpp */,
 			);
 			path = CppTests;
+			sourceTree = "<group>";
+		};
+		F86A786E205C0E4E00528EB3 /* Echo Server */ = {
+			isa = PBXGroup;
+			children = (
+				F86A786F205C0E8200528EB3 /* Server */,
+			);
+			path = "Echo Server";
+			sourceTree = "<group>";
+		};
+		F86A786F205C0E8200528EB3 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				F86A7870205C0ED900528EB3 /* EchoServer.cpp */,
+				F86A7871205C0ED900528EB3 /* EchoServer.hpp */,
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86A78662056BA4E00528EB3 /* main.cpp in Sources */,
+				F86A7872205C0ED900528EB3 /* EchoServer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
